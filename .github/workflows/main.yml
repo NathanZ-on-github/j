@@ -10,8 +10,8 @@ jobs:
       # Runs the specified commands commands to get Ultraviolet-Node running.
       - name: run ultraviolet
         run: |
-          git clone https://github.com/3proxy/3proxy --recursive
-          cd 3proxy
+          git clone https://github.com/avwo/whistle --recursive
+          cd whistle
           npm install
           screen -dm npm start
       - name: tunnel and expose to web
