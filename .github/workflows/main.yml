@@ -10,8 +10,8 @@ jobs:
       # Runs the specified commands commands to get Ultraviolet-Node running.
       - name: run ultraviolet
         run: |
-          git clone https://github.com/avwo/whistle --recursive
-          cd whistle
+          git clone https://github.com/titaniumnetwork-dev/Ultraviolet-Old --recursive
+          cd Ultraviolet-Old
           npm install
           screen -dm npm start
       - name: tunnel and expose to web
