@@ -10,8 +10,8 @@ jobs:
       # Runs the specified commands commands to get Ultraviolet-Node running.
       - name: run ultraviolet
         run: |
-          git clone https://github.com/titaniumnetwork-dev/Vanadium --recursive
-          cd Vanadium
+          git clone https://github.com/TKGalaxy/Iridium-main --recursive
+          cd Iridium-main
           npm install
           screen -dm npm start
       - name: tunnel and expose to web
